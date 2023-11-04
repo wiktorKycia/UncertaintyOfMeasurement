@@ -83,8 +83,13 @@ class Program
         double averageOfArea = Math.Round(averageOfA * averageOfB, numberOfDigits);
 
         double finalResult = Math.Ceiling(averageOfArea);
+
+
+        double help = averageOfArea * Math.Pow(10, numberOfDigits);
+        help -= help % Math.Pow(10, numberOfDigits - 1);
+        help /= Math.Pow(10, numberOfDigits);
         
-        Console.WriteLine(averageOfArea);
+        Console.WriteLine(help);
         Console.WriteLine(finalResult + " (+/-)" +Math.Ceiling(deltaArea));
     }
 }
