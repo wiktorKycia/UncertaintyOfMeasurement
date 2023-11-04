@@ -32,5 +32,11 @@ class Program
                 Console.WriteLine($"Measurement {i+1}: ");
             } while (!double.TryParse(Console.ReadLine(), out measurementsB[i]));
         }
+
+        double averageOfA = 0;
+        for (int i = 0; i < amount; i++)
+        {
+            averageOfA += measurementsA[i];
+        }
     }
 }
