@@ -1,0 +1,15 @@
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\bin\Debug\net7.0\UncertaintyOfMeasurement.exe
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\bin\Debug\net7.0\UncertaintyOfMeasurement.deps.json
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\bin\Debug\net7.0\UncertaintyOfMeasurement.runtimeconfig.json
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\bin\Debug\net7.0\UncertaintyOfMeasurement.dll
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\bin\Debug\net7.0\UncertaintyOfMeasurement.pdb
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.csproj.AssemblyReference.cache
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.AssemblyInfoInputs.cache
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.AssemblyInfo.cs
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.csproj.CoreCompileInputs.cache
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.dll
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\refint\UncertaintyOfMeasurement.dll
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.pdb
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\UncertaintyOfMeasurement.genruntimeconfig.cache
+C:\Users\wikto.DESKTOP-BBO0S7I\RiderProjects\UncertaintyOfMeasurement\obj\Debug\net7.0\ref\UncertaintyOfMeasurement.dll
