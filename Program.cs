@@ -11,6 +11,7 @@ class Program
             Console.WriteLine("How many measurements are we going to do?");
         } while (!int.TryParse(Console.ReadLine(), out amount));
 
-        double[] measurements = new double[amount];
+        double[] measurementsA = new double[amount];
+        double[] measurementsB = new double[amount];
     }
 }
