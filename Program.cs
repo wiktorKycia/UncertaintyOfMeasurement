@@ -13,5 +13,14 @@ class Program
 
         double[] measurementsA = new double[amount];
         double[] measurementsB = new double[amount];
+
+        for (int i = 0; i < amount; i++)
+        {
+            do
+            {
+                Console.Clear();
+                Console.WriteLine($"Measurement {i+1}: ");
+            } while (!double.TryParse(Console.ReadLine(), out measurementsA[i]));
+        }
     }
 }
