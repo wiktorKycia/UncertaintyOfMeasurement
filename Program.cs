@@ -19,8 +19,18 @@ class Program
             do
             {
                 Console.Clear();
+                Console.WriteLine("Side A: ");
                 Console.WriteLine($"Measurement {i+1}: ");
             } while (!double.TryParse(Console.ReadLine(), out measurementsA[i]));
+        }
+        for (int i = 0; i < amount; i++)
+        {
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Side B: ");
+                Console.WriteLine($"Measurement {i+1}: ");
+            } while (!double.TryParse(Console.ReadLine(), out measurementsB[i]));
         }
     }
 }
