@@ -47,10 +47,10 @@ class Program
         double deltaA = measurementsA.Max() - measurementsA.Min();
         double deltaB = measurementsB.Max() - measurementsB.Min();
 
-        double AreaMax = (averageOfA + deltaA) * (averageOfB + deltaB);
-        double AreaMin = (averageOfA - deltaA) * (averageOfB - deltaB);
+        double areaMax = (averageOfA + deltaA) * (averageOfB + deltaB);
+        double areaMin = (averageOfA - deltaA) * (averageOfB - deltaB);
 
-        double deltaArea = (AreaMax - AreaMin) / 2;
-        
+        double deltaArea = (areaMax - areaMin) / 2;
+
     }
 }
