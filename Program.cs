@@ -49,5 +49,8 @@ class Program
 
         double AreaMax = (averageOfA + deltaA) * (averageOfB + deltaB);
         double AreaMin = (averageOfA - deltaA) * (averageOfB - deltaB);
+
+        double deltaArea = (AreaMax - AreaMin) / 2;
+        
     }
 }
