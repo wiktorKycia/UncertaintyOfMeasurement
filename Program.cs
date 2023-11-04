@@ -52,7 +52,7 @@ class Program
 
         double deltaArea = (areaMax - areaMin) / 2;
 
-        int numberOfDigits;
+        int numberOfDigits = 0;
         string stringDeltaArea = deltaArea.ToString();
         if (stringDeltaArea.Contains('.'))
         {
@@ -76,6 +76,7 @@ class Program
                 }
             }
         }
-        
+
+        double averageOfArea = Math.Round(averageOfA * averageOfB, numberOfDigits);
     }
 }
