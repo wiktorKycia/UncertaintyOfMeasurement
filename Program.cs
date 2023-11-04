@@ -38,5 +38,10 @@ class Program
         {
             averageOfA += measurementsA[i];
         }
+        double averageOfB = 0;
+        for (int i = 0; i < amount; i++)
+        {
+            averageOfB += measurementsB[i];
+        }
     }
 }
