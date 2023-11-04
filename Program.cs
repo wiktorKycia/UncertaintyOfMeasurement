@@ -78,5 +78,7 @@ class Program
         }
 
         double averageOfArea = Math.Round(averageOfA * averageOfB, numberOfDigits);
+
+        double finalResult = Math.Ceiling(averageOfA);
     }
 }
