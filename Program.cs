@@ -43,5 +43,8 @@ class Program
         {
             averageOfB += measurementsB[i];
         }
+
+        double deltaA = measurementsA.Max() - measurementsA.Min();
+        double deltaB = measurementsB.Max() - measurementsB.Min();
     }
 }
