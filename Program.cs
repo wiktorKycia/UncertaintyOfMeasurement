@@ -88,6 +88,7 @@ class Program
         double help = averageOfArea * Math.Pow(10, numberOfDigits);
         help -= help % Math.Pow(10, numberOfDigits - 1);
         help /= Math.Pow(10, numberOfDigits);
+        if (numberOfDigits > 1){ help += 0.1;}
         
         Console.WriteLine(help);
         Console.WriteLine(finalResult + " (+/-)" +Math.Ceiling(deltaArea));
