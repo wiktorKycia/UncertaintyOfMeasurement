@@ -52,5 +52,30 @@ class Program
 
         double deltaArea = (areaMax - areaMin) / 2;
 
+        int numberOfDigits;
+        string stringDeltaArea = deltaArea.ToString();
+        if (stringDeltaArea.Contains('.'))
+        {
+            int len = stringDeltaArea.Length;
+            for(int i = 0; i<len; i++)
+            {
+                if (stringDeltaArea[i] == '.')
+                {
+                    numberOfDigits = len - i - 1;
+                }
+            }
+        }
+        else if (stringDeltaArea.Contains(','))
+        {
+            int len = stringDeltaArea.Length;
+            for(int i = 0; i<len; i++)
+            {
+                if (stringDeltaArea[i] == ',')
+                {
+                    numberOfDigits = len - i - 1;
+                }
+            }
+        }
+        
     }
 }
