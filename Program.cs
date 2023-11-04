@@ -38,11 +38,14 @@ class Program
         {
             averageOfA += measurementsA[i];
         }
+        averageOfA /= amount;
+        
         double averageOfB = 0;
         for (int i = 0; i < amount; i++)
         {
             averageOfB += measurementsB[i];
         }
+        averageOfB /= amount;
 
         double deltaA = measurementsA.Max() - measurementsA.Min();
         double deltaB = measurementsB.Max() - measurementsB.Min();
@@ -79,6 +82,9 @@ class Program
 
         double averageOfArea = Math.Round(averageOfA * averageOfB, numberOfDigits);
 
-        double finalResult = Math.Ceiling(averageOfA);
+        double finalResult = Math.Ceiling(averageOfArea);
+        
+        Console.WriteLine(averageOfArea);
+        Console.WriteLine(finalResult + " (+/-)" +Math.Ceiling(deltaArea));
     }
 }
